@@ -113,6 +113,7 @@ public class GameActorController : MonoBehaviour
         AddVerticalForce(bounceForce);
     }
 
+    // Adds vertical force to the game actor
     private void AddVerticalForce(float force)
     {
         _vy = 0;
